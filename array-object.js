@@ -136,7 +136,6 @@ const districtList = [
   ];
 
 const localDevCommitteeList = [
-    const localDevCommitteeList = [
         //level 1
         { districtId: 1, localDevCommitteeId: 1, name: "Ilam Municipality", ward: 12 },
         { districtId: 1, localDevCommitteeId: 2, name: "Deumai Municipality", ward: 9 },
@@ -151,4 +150,3 @@ const localDevCommitteeList = [
 
         //level 2
     ];
-]
