@@ -34,3 +34,24 @@ let evenNumb=[1, 2, 3, 4 , 5, 6, 7, 8 , 9 , 10];
 
 let outeven =evenNumb.filter((val)=>val % 2== 0);
 console.log(outeven);
+
+//Named call back
+function greet(name) {
+    console.log(`Hello ${name}`);
+}
+
+function processUser(callback) {
+    callback("Ram");
+}
+
+processUser(greet);
+
+
+// arrow call back
+function processUser(callback) {
+    callback("Ram");
+}
+
+processUser((name) => {
+    console.log(`Hello ${name}`);
+});

@@ -96,5 +96,3 @@ userData.userName="Tamang";
 userData.address.temporary = "Battar"
 console.log(userProfile)
 console.log(userData)
-
-
