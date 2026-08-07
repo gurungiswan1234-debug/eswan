@@ -24,3 +24,5 @@
 
 ** Asynchronous and synchronous behaviour of javascript
  //timer, db query, complecx logical , api call
+
+ ## es-6 and es-5 (import and export syntax)
